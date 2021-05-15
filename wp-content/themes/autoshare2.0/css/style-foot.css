@@ -1,0 +1,142 @@
+
+.footer {
+    background-color:#1E293E;
+    overflow: hidden;
+}
+.white{
+    background-color: white;
+   
+}
+.footer .input-group{
+    margin:0px 0 0 0;
+}
+
+.footer .input-group input {
+    height: 66px;
+    border: none;
+}
+
+.footer .input-group button{
+    background-color: #A21C1C;
+    color:#FFFFFF;
+    height: 50px;
+    width: 158px;
+    margin:auto;
+}
+
+.footer .input-group button:hover{
+    background-color:#5F1212;
+}
+
+
+.menutext h2{
+    font-size:20px;
+    color:white;
+}
+.menutext h3 a{
+    color:#bebebe;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.menutext h3 a:hover{
+    color:#ffffff;
+}
+
+
+
+.conttext h2{
+    font-size:20px;
+    color:white;
+}
+.conttextt h3{
+    color:#bebebe;
+    margin-top:20px;
+    font-size:18px;
+    text-decoration: none;
+}
+
+.fix{
+    height: 100%;
+    width: 100%; 
+}
+.row i{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+.footer_botton {
+    padding: 5px 0;
+    background: red;
+    
+}
+
+
+
+
+.block {
+    background:#01091A;
+    overflow: hidden;
+}
+.white{
+    background-color: white;
+   
+}
+
+
+.menutext h2{
+    font-size:20px;
+    color:white;
+}
+.menutext h3 a{
+    color:#bebebe;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.menutext h3 a:hover{
+    color:#ffffff;
+}
+
+
+.conttext h2{
+    font-size:20px;
+    color:#bebebe;
+}
+.conttext h3{
+    color:#bebebe;
+    margin-top:20px;
+    font-size:18px;
+    text-decoration: none;
+}
+
+.fix{
+    height: 25px;
+    width: 25px; 
+}
+.row i{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+.footer_bottom {
+    padding: 10px 0;
+    background: rgba(196, 196, 196, 0.2);
+    
+}
+
+
+.text{
+color:white;
+}
+
+hr {
+    width: 300px;
+    background-color: #A31C1C;  
+    height: 6px;
+    margin-top: auto;
+    margin: auto;
+   }
+

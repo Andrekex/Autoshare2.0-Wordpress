@@ -1,0 +1,157 @@
+
+
+#main-slider-block{
+    max-width:1200px;
+}
+
+
+
+#viewport{  
+    height:625px;
+    position: relative;     
+    overflow: hidden;    
+    user-select:none;
+    z-index: 1;
+}
+
+#slidewrapper{
+    position: relative;
+    width: calc(100%*4);
+    transition: 1s;
+    transition-timing-function: cubic-bezier(.67, .01, .23, .1);
+    
+    
+}
+
+#slidewrapper, #slidewrapper ul, #slidewrapper li{
+    margin: 0;
+    padding: 0
+}
+
+.slide{
+    width: calc(100%/4);
+    list-style:none;
+    display: inline;
+    float:left;
+    position: relative;
+}
+
+.slide-img{
+    width: 100%;
+}
+
+#prev-btn, #next-btn {
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    border-radius:50%;
+    top: calc(50% - 25px);
+}
+
+#prev-btn:hover, #next-btn:hover{
+    cursor: pointer;
+}
+
+
+#nav-btns {
+    position: absolute;
+    width: 100%;
+    bottom:20px;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+
+.slide-nav-btn{
+    position: relative;
+    display: inline-block;
+    list-style:none;
+    width: 15px;
+    height: 15px;
+    background-color: #A21C1C;
+    border-radius:50%;
+    border:white solid 2px;
+    margin: 3px;
+}
+
+.slide-nav-btn:hover{
+    cursor:pointer;
+}
+
+.booking{
+    background-color: black;
+    z-index: 2;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.85;
+    
+}
+
+.booking_slide{
+    background-color: black;
+    width: 900px;
+    height: 100%;
+    
+}
+
+.fake_book{
+    width:62px;
+}
+
+#open_book {
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    border-radius:50%;
+    top: calc(50% - 25px);
+    margin-left:0;
+    display: none;
+    
+}
+.booking_mobile_name{
+    
+    color: #FFFFFF;
+}
+
+.booking_mobile_back{
+    background-color: #050B18;
+    height: 550px;
+}
+#open_book p{
+    cursor:pointer;
+}
+
+.bookFrom, .bookFrom h3{
+    font-size: 16px;
+}
+
+.bookTo, .bookTo h3{
+    font-size: 16px;
+}
+
+.bookFrom, .bookTo, .text_book h3{
+    color:#FFFFFF;
+}
+
+.bookFrom input::placeholder, .bookTo input::placeholder{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.bookFrom input, .bookTo input{
+    color: #FFFFFF;
+}
+.text_book .town{
+    color: #FFFFFF;
+    margin-right: 95px;
+}
+
+.book_title{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+

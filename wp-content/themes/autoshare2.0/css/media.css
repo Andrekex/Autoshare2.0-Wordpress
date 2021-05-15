@@ -1,0 +1,365 @@
+@media (max-width:2560px){
+    .prom_back{
+        height:233px;
+    }
+}
+
+@media (max-width:1200px){
+    .booking{
+        height: 75% !important; 
+        
+    }
+
+    .img_rolls_1{
+        width: 930px;
+    }
+    .was_img{
+        width: 80px;
+        height: 50px;
+    }
+
+    .was_text h3{
+        font-size: 14px;
+        margin: auto 0;
+    }
+
+}
+
+@media (max-width:1025px){
+    .slider{
+        height: 100px;
+    }
+    
+    .partners img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .slider{
+        height: 600px;
+    }
+    .booking{
+        height: 600px;
+    }
+    #main-slider-block{
+        height: 550px;
+    }
+
+    #nav-btns{
+        top:550px;
+    }
+    .prom_back{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:992px){
+}
+
+@media (max-width: 769px){
+    .partners img{
+        width: 70px;
+        height: 70px;
+    }
+    .was_img{
+        width: 60px;
+        height: 40px;
+    }
+
+    .was_text h3{
+        font-size: 14px;
+        margin: auto 0;
+    }
+    #nav-btns{
+        top:400px;
+    }
+
+    .slider{
+        height: 450px;
+    }
+
+    .booking_mobile_name{
+        text-align: center;
+    }
+
+    .prom_back{
+        margin-top: 20px;
+        height: 450px;
+        font-size:10px;
+    }
+
+    .bookTo h3{
+        font-size: 20px;
+    }
+    .town{
+        font-size: 20px;
+        color: white;
+    }
+    .towns h3{
+        color:white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #conttext h3{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width:992px){
+    .textinform h3 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:100px) and (max-width:600px) {
+    .need-hide{
+        position: relative;
+    }
+ }
+ 
+ @media (min-width:100px) and (max-width:900px) {
+    .zoom{
+        font-size:20px;
+    }
+ }
+
+@media (max-width:576px){
+ .textcorousel h1{
+     font-size: 20px;
+    }
+    .buttoncorousel button {
+        width: 175px;
+    }
+    
+    .prom_back{
+        height:50px;
+    }
+    
+    .foottext{
+        text-align: center;
+    }
+}
+
+@media (max-width:426px){
+    *{font-size: 1em;}
+
+    .bookTo h3{
+        font-size: 18px;
+    }
+    .town{
+        font-size: 18px;
+        color: white;
+    }
+    .towns h3{
+        color:white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .prom_back{
+        margin-top: 20px;
+        height: 360px;
+        font-size:10px;
+        margin-bottom: 20px;
+    }
+
+    #conttext h3{
+        font-size: 11px;
+        text-align: left;
+    }
+    
+    .bookFrom h3{
+        font-size: 16px;
+    }
+
+    .about_text h3{
+        margin-top: 30px;
+        font-size:16px;
+        text-align: center;
+    }
+    .bb{
+        font-size: 1rem;
+        height: 50px;
+        width: 200px;
+    }
+    .f1 {
+    font-size: 1.5rem;
+    color: white;
+    }
+    .f2 {
+    font-size: 3rem;
+    color: white;
+    }
+    
+    .titlecar{
+        font-size: 24px;
+    }
+    
+    .foottext{
+        text-align: center;
+    }
+    
+    .Rgfix{
+        font-size: 15px;
+    }
+    
+    .titlecolor{
+        font-size: 18px;
+    }
+    .fixfoot {
+        margin:auto;
+    }
+}
+
+@media (max-width:769px){
+    .text-service {
+        font-size: 30px;      
+    }
+    }
+
+
+
+@media (max-width:426px){
+    .text-serv {
+    font-size: 13px;
+}
+    .text-serv span {
+    font-size: 11px;
+}
+    
+}
+
+@media (max-width:321px){
+    p.btn-text-serv {
+        font-size: 17px !important;
+        
+    }
+    .modal-getinf p {
+ font-size: 14px;
+}
+    .modal-inf p {
+        font-size: 14px;
+    }
+    .modal-getinf input:placeholder-shown {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:320px){
+    .titlecar{
+        font-size:18px;
+    }
+    
+    .img1_car img{
+        width:23px;
+        height:23px;
+    }
+    
+    .img2_car img{
+        width:23px;
+        height:23px;
+    }
+    
+}
+
+@media (max-width:312px){
+    .img1_car span{
+        font-size: 18px;
+    }
+    
+    .img2_car span{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:300px){
+    .titlecar{
+        font-size:18px;
+    }
+    
+    .img1_car img{
+        width:20px;
+        height:20px;
+    }
+    
+    .img2_car img{
+        width:20px;
+        height:20px;
+    }
+    
+    .titlecolor{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 250px){
+    .Rgfix{
+        font-size:13px;
+    }
+    
+    .textcorousel h1{
+        font-size: 16px;
+    }
+    
+    .titlecolor{
+        margin:auto;
+    }
+}
+
+@media (max-width:276px){
+    .img1_car span{
+        font-size: 16px;
+    }
+    
+    .img2_car span{
+        font-size: 16px;
+    }
+}
+@media (max-width:268px){
+    
+    .titlecar{
+        font-size:14px;
+    }
+    .img1_car span{
+        font-size: 14px;
+    }
+    
+    .img2_car span{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:260px){
+    .img1_car span{
+        font-size: 12px;
+    }
+    
+    .img2_car span{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:254px){
+    .img1_car span{
+        font-size: 11px;
+    }
+    
+    .img2_car span{
+        font-size: 11px;
+    }
+}
+
+@media (max-width:250px){
+    .img1_car span{
+        font-size: 10px;
+    }
+    
+    .img2_car span{
+        font-size: 10px;
+    }
+}
+

@@ -1,0 +1,32 @@
+# Translation of Plugins - Ukr-To-Lat - Development (trunk) in Ukrainian
+# This file is distributed under the same license as the Plugins - Ukr-To-Lat - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-24 17:42:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Ukr-To-Lat - Development (trunk)\n"
+
+#. Author URI of the plugin
+msgid "https://roboteye.biz/"
+msgstr "https://roboteye.biz/"
+
+#. Plugin Name of the plugin
+msgid "Ukr-To-Lat"
+msgstr "Ukr-To-Lat"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/ukr-to-lat/"
+msgstr "https://wordpress.org/plugins/ukr-to-lat/"
+
+#. Author of the plugin
+msgid "Alexander Butyuhin"
+msgstr "Alexander Butyuhin"
+
+#. Description of the plugin
+msgid "Converts Ukrainian characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov and Cyr-To-Lat by Atrax and SergeyBiryukov."
+msgstr "Конвертує українські символи у записах та слагах груп на латинські символи. Корисно для створення зручних для користувачів URL-посилань. Базується на першоджерельному плагіні від Антона Скоробогатова та Cyr-To-Lat від Atrax та SergeyBiryukov."

@@ -1,0 +1,755 @@
+/*!
+Theme Name: autoshare2.0
+Theme URI: http://underscores.me/
+Author: Andrekex
+Author URI: http://underscores.me/
+Description: Autoshare is a carsharing site
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: autoshare2.0
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*/
+
+/* FOR ALL */
+body{
+    background-color: #051128;
+    color: #BEBEBE;
+}
+*{margin: 0; padding: 0;font-family: 'Roboto Slab', serif;}
+
+/* MAIN */
+.more_about_us{
+    text-decoration: none;
+    color: #bebebe;
+}
+.more_about_us:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.img_first{
+    width: 25px;
+    height: 25px;
+}
+
+.hr_book{
+    color: #F51313;
+    width: 166px;
+    height: 2px;
+}
+
+#ddmenu {
+    display: block;
+    position:static;
+    width: 300px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(20, 20, 20, 0.2);
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: red;
+  }
+
+
+  
+  #ddmenu li {z-index: 1; display: block; position: relative; text-align: center; font-size: 1.45em; }
+  
+  .ddmenu2{z-index: 0 !important; display: block; position: relative; text-align: center; font-size: 1.45em; }
+
+  #ddmenu li a {
+    height: 40px;
+    
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #bebebe;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  #ddmenu li:hover > a { color: black; }
+  
+  #ddmenu ul {
+    position: absolute;
+    width: 280px;
+    background: black;
+    display: none;
+    padding: 7px 0;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  #ddmenu ul:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: #fff transparent; 
+  }
+  
+  #ddmenu ul:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1) transparent;  
+  }
+  .rolls_img_back{
+      opacity: 1;
+  }
+
+  
+
+  .i8_img_back{
+      opacity:1;
+  }
+  #ddmenu ul li { 
+    display: block; 
+    width: 100%; 
+    font-size: 0.9em; 
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+  #ddmenu ul li a {
+    display: block;
+    width: 100%;
+    padding: 6px 7px;
+    line-height: 1.4em;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  #ddmenu ul li a:hover {
+    background: green;
+  }
+
+.oldass{
+    height: 20%;
+}
+.hr_book_mob{
+    color: #F51313;
+    width: 190px;
+    height: 2px;
+}
+
+
+.rolls_back{
+    height: 650px;
+}
+
+.black_color_down{
+    background-color: black;
+}
+
+.hr_prom{
+    color: #ad9595;
+    width: 40px;
+    height: 2px;
+}
+
+.hr_services{
+    color: #ad9595;
+    width: 70px;
+    height: 2px;
+    margin-bottom: 50px;
+}
+
+.title_class {
+    color: white;
+}
+
+.title_line {
+    border-top-style: solid;
+    border-width: 4px;
+    border-top-color: #F51313;
+    margin: 0 auto;
+    width: 70px;
+    margin-bottom: 50px;
+}
+
+.text-service {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+    z-index: 9999;
+    
+}
+
+.trapezium {
+ 
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+        
+
+}
+.service-card {
+    height: 256px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.service-card img {
+  
+    min-width: 1200px;
+}
+
+.block-anim {
+z-index: 9;
+}
+
+.text-serv {
+    color: black;
+    text-align: center;
+    
+}
+
+.text-serv p {
+    font-weight: bold;
+}
+.text-serv span {
+    font-size: 14px;
+}
+.text-serv a {
+    color:black;
+}
+.text-serv a:hover {
+    color: grey !important;
+    
+}
+img.img-turism {
+    min-width: 0px !important; 
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.block-anim p.btn-text-serv {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 150px;
+ 
+}
+
+
+.block-anim p.btn-marg {
+    
+    margin-top: 150px;
+ 
+}
+.block-anim a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+button.button-service{
+    width: 197px;
+    height: 42px;
+    background-color: #DDDFE3;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+button.button-service:hover {
+    background-color: white;
+}
+
+button.button-service_mob{
+    width: 197px;
+    height: 42px;
+    background-color: #DDDFE3;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-left:35px;
+}
+
+button.button-book{
+    width: 197px;
+    height: 42px;
+    background-color: #DDDFE3;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-top: 150px;
+    
+}
+
+button.button-book:hover {
+    background-color: white;
+}
+
+
+.towns{
+    border:2px solid #bebebe;
+    color: #bebebe;
+    opacity: 0.8;
+}
+
+.towns h3{
+    font-size:16px;
+    color: #bebebe;
+}
+
+.towns h3 :hover{
+    color: #FFFFFF;
+}
+
+.slider{
+    height:625px;
+}
+
+.bookPlace1 input, .bookDate1 input,.bookPlace2 input, .bookDate2 input, .bookTime1 input, .bookTime2 input{
+    border:2px solid #FFFFFF;
+    background-color: white;
+    height: 36px;
+    color:black;
+    font-size: 15px;
+    user-select: none;
+    
+}
+
+#open_book{
+    left:20px;
+}
+
+.slider_text_down{
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+
+
+.nav-pills .nav-link.active{
+    border-bottom: solid red;
+    background-color: transparent !important;
+}
+.promotions_name h3{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
+.prom_back{
+    background-color:#01091A;
+    font-size: 16px;
+    color: #BEBEBE;
+    border-top: 0.5px solid #A21C1C;
+    border-bottom:0.5px solid #A21C1C ;
+}
+
+.prom_back img{
+    width: 75px;
+    height:50px;
+}
+
+
+
+
+.buttoncorousel button{
+    background-color: #A21C1C;
+    color:#FFFFFF;
+    height: 50px;
+    width: 256px;
+    margin:auto;
+}
+
+.buttoncorousel button:hover{
+    background-color:#5F1212;
+}
+
+
+.information {
+    background-color: #CCD3DE;
+    color: #051128;
+}
+
+
+.car img{ 
+    width: 100%;
+    height: 100%;
+}
+#buttonmain{
+    background-color: #051128;
+    color:#FFFFFF;
+    height: 50px;
+    width: 158px;
+    margin:auto;
+}
+.back_up{
+    background-color:black;
+}
+
+
+#buttonmain:hover{
+    background-color: #FFFFFF;
+    color:#051128;
+}
+.information .modal-content {
+    background-color: #1E293E;
+    color: #BEBEBE;
+    text-align: start !important;
+}
+.information .modal-header {
+    border-bottom: none;
+}
+
+.information .modal-content h5 {
+    color: #BEBEBE !important;
+}
+
+.car img{
+    transform: rotateY(180deg);
+}
+.contacts{
+    border-top: 0.5px solid #A21C1C;
+    border-bottom:0.5px solid #A21C1C ;
+}
+.title_line_under {
+    color: #F51313;
+    width: 220px;
+    height: 2px;
+    
+}
+
+.text_i8_front{
+    color: #BEBEBE;
+}
+
+
+.second_pl{
+    font-size:5px;
+}
+.was{
+    
+    color:white;
+}
+
+.was_img{
+    width: 108px;
+    height: 78px;
+}
+
+.service-img1, .service-img2,.service-img3,.service-img4{
+    opacity: 1;
+}
+
+.was_text h3{
+    font-size: 16px;
+    margin: auto 0;
+}
+
+.was_text{
+    margin: 55px 20px ;
+
+}
+.was_all_mob{
+    margin: 150px 0;
+}
+.was_mob{
+    text-align: center;
+    color:white;
+}
+
+.was_mob_img{
+    width: 108px;
+    height: 78px;
+}
+
+.was_mob_text h3{
+    font-size: 16px;
+    margin: auto 0;
+}
+
+.was_mob_text{
+    margin: 55px 20px ;
+
+}
+.about_text_mob{
+    margin: 0 auto;
+}
+.i8_mob{
+    margin: auto;
+}
+.hrr {
+    color:#F51313;
+    width: 230px;
+    height: 2px;
+}
+
+.maps_main{
+}
+
+.content_block {
+    display: none;
+    
+}
+
+.copyright {
+  text-decoration: none;
+  color:#fff;
+  text-align:center;
+}
+
+.hrrr {
+    color:#F51313;
+    width: 213px;
+    height: 2px;
+   
+}
+
+.fade {
+  opacity: 1;
+}
+
+.fade:hover {
+  opacity: 0.6;
+}
+.b {
+    width: 10px;
+    height: 10px;
+}
+.fixes{
+    height: 70px;
+    width: 90px; 
+}
+.fixs{
+    height: 85px;
+    width: 90px; 
+}
+.vis{
+  margin-top: 20px;
+}
+.t {
+   margin-top: auto; 
+}
+body{
+    background-color: #051128
+}
+
+.Color {
+    color:white;
+}
+
+.box {
+    color:#fff;
+}
+
+
+/* ABOUT US */
+
+.title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.titlecolor{
+    color:#bebebe;
+}
+.bb {
+    color: white;
+}
+
+body{
+    background-color: #051128;
+    color: #BEBEBE;
+}
+*{margin: 0; padding: 0;font-family: 'Roboto Slab', serif;}
+
+
+.a {
+    margin-right: 1000px;
+}
+.about_text {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    
+}
+
+/* CONDITIONS */
+
+.f {
+    text-decoration: underline;
+    margin-left: px;
+}
+.d {
+    margin-left: 15px;
+}
+
+/* OUR CARS */
+
+.cardtext {
+    text-align: center;
+    
+}
+.cardstyle {
+ background-color: transparent;
+    
+    border: solid;
+    margin-bottom: 30px;
+}
+.cardstyle .card-body {
+    background-color: rgba(32, 43, 66, 0.7);
+}
+.cardstyle a{
+    color: #BEBEBE;
+}
+.cardstyle a:hover{
+    text-decoration: none;
+}
+
+.cardin {
+    border-left: solid;
+    text-align: center;
+}
+#bord {
+    border-bottom: solid;
+}
+
+.catalogue-image {
+    border-bottom: solid;
+
+    
+}
+
+.pagestyle {
+    background-color: #1E293E;
+    color: #BEBEBE;
+}
+.pagestyle:hover {
+    color: #1E293E !important;
+}
+
+.pageactive {
+    background-color: white;
+    color: #1E293E;
+}
+.pageactive:hover {
+    color: #1E293E;
+}
+
+.klassauto a {
+    color: #BEBEBE;
+    border-bottom: solid;
+    border-radius: 0px !important;
+}
+
+.nav-pills .nav-link.active{
+    border-bottom: solid red;
+    background-color: transparent !important;
+}
+
+/* VSA */
+
+.block_right{
+    background-color: #01091A;
+    border-top: solid 1px red;
+    border-left: solid 1px red;
+    border-right: solid 1px red;
+    color: white;
+    font-weight: 400 ;
+    
+}
+
+.block_right h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+.block_right span{
+    margin: 0 auto;
+}
+
+.car_parameters {
+    justify-content: space-around;
+    color: #BEBEBE;
+}
+
+.type{
+    border-bottom: solid white 1px;
+}
+
+.doors{
+    border-bottom: solid white 1px;
+}
+
+.seats{
+    border-bottom:  solid white 1px;
+}
+
+.specs_name h3{
+    font-size:16px;
+}
+
+.hr_specs{
+    color: #F51313;
+    width: 120px;
+    height: 1px;
+}
+
+.hr_comp{
+    color: #F51313;
+    width: 80px;
+    height: 1px;
+}
+
+.specs{
+    color: #BEBEBE;
+    font-size: 16px;
+}
+
+.specs span{
+    color: white;
+    font-size: 16px;
+}
+
+.comp_name h3{
+    font-size:16px;
+}
+
+.comp{
+    color: #BEBEBE;
+    font-size: 16px;
+}
+
+.back_vsa{
+    background-color: black;
+}
+
+.price_main{
+    text-align:center;
+    font-size: 32px;
+    border-top: solid 1px;
+}
+
+.price_secondary{
+    color: #bebebe;
+    font-size: 14px;
+}
